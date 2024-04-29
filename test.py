@@ -1,5 +1,6 @@
 import cohere
 
+# Insert your Cohere API key in between the quotes below.
 co = cohere.Client('insert apikey')
 
 response = co.chat(
